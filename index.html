@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="home">
+        <br>
+        <h3 class="display-3 text-secondary text-center pt-4 font-weight-bold">PEGASOS WORLD HOTEL</h3>
+        <div class="container-rezervace">
+            <br>
+            <form>
+                <h4 class="text-center">Rezervace</h4>
+                <br>
+                <div class="row">
+                    <div class="col text-white">
+                        <label for="firstname">Jméno</label>
+                        <input type="text" class="form-control" placeholder="" id="firstname">
+                    </div>
+                    <div class="col text-white">
+                        <label for="lastname">Příjmení</label>
+                        <input type="text" class="form-control" placeholder="" id="lastname">
+                    </div>
+                </div>
+                <br>
+                <div class="row pt-2">
+                    <div class=" col- col-lg-12 form-group text-white">
+                        <label for="exampleInputEmail1">E-mail</label>
+                        <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="">
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col form-group text-white">
+                        <label for="exampleInputPassword1">Datum příjezdu</label>
+                        <input type="date" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="col form-group text-white">
+                        <label for="exampleInputPassword1">Datum odjezdu</label>
+                        <input type="date" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label text-white" for="exampleCheck1">Nejsem robot</label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg w-50">Odeslat</button>
+                </div>
+            </form>
+        </div>
+        <br> 
+
+        <div class="text-center p-3">
+            <button type="submit" class="btn btn-primary btn-warning " data-toggle="modal"
+                data-target="#aboutvideo">Video</button>
+        </div>
+        <br> 
+
+    </div>
+
+
+    <div class="modal " tabindex="-1" id="aboutvideo">
+        <div class="modal-dialog ">
+            <div class="modal-content my-3 py-3">
+                <iframe width="100%" height="280" src="https://www.youtube.com/embed/X0ByTB_v7nI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="modal-footer mt-3">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light position-sticky sticky-top" id="navbarmenu">
+        <a class="navbar-brand js-scroll-trigger" href="#">Pegasos World Hotel</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                <li class="nav-item "><a class="nav-link js-scroll-trigger" href="#home">Domů</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#history">Info</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger " href="#cenik" >Ceny</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger " href="#karousal" >Galerie</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger " href="#kontakt" >Kontakty</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container-info pt-4" id="history">
+        <h3 class="text-center font-weight-light">Info o hotelu</h3>
+        <div class="row py-4 m-auto">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 pb-4 text-justify">
+                <h5>Lokalita:</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aperiam perspiciatis magnam nostrum
+                    aspernatur soluta esse itaque! Dignissimos corrupti deserunt dolores id optio minus velit tenetur
+                    sed repellendus! Voluptate, totam.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quod. Aut aliquam corrupti molestiae
+                    minima suscipit doloremque, vel consequuntur laboriosam sed, tempore eligendi ullam neque eaque. Et
+                    ullam molestias veritatis?</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo tenetur, iste minima velit
+                    nobis quo enim magnam numquam perspiciatis officia ullam quasi, fugiat in minus doloremque ut nulla
+                    voluptates!
+                </p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi assumenda nesciunt, quaerat nulla
+                    quae perspiciatis rerum hic consequatur animi dolorem dicta exercitationem harum amet voluptatum
+                    cumque ipsum ex odio id.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 pb-4 text-justify">
+                <h5>Místa v okolí:</h5>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reprehenderit, dolorem deleniti
+                    eius totam dolorum vitae distinctio. Voluptatem rem, quo est deserunt harum voluptas libero, quidem
+                    inventore cum neque minima.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sed eligendi nostrum magnam accusantium
+                    maiores dolores molestiae perspiciatis doloribus cupiditate aliquid eum quae numquam rem inventore
+                    dolorem, rerum eos aperiam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus voluptates
+                    accusantium numquam animi. Consequatur vel accusantium, voluptatum beatae velit quod natus ad
+                    molestiae. Dolorum quisquam id ipsa modi. Quasi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis porro labore asperiores
+                    praesentium. Ipsa sit aliquam, incidunt esse dignissimos magnam temporibus quisquam, fuga minima
+                    magni illo ullam aperiam nesciunt.</p>
+            </div>
+            <div class="col-12  col-xl-4">
+                <img src="images/Resort_m.JPG" alt="obr1">
+            </div>
+        </div>
+    </div>
+    <br>
+    <section id="cenik" class="container-ceny">
+        <h3 class="text-center font-weight-light pb-4">Ceny</h3>
+        <div class="row m-auto">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="card mb-4">
+                    <img src="images/ORIGINAL_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Studentský pokoj</h5>
+                        <table class="table table-bordered text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-center"><i class="fas fa-male"></i>
+
+                                    </th>
+                                    <th scope="col">1 noc</th>
+                                    <th scope="col">1 týden</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>30 $</td>
+                                    <td>200 $</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>55 $</td>
+                                    <td>350 $</td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <p class="card-text text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                            inventore laboriosam.
+                        </p>
+
+                        <div class="text-center">
+                            <button type="button" class="btn btn-secondary" data-toggle="tooltip"
+                                data-placement="bottom" title="Info o pokoji">Více informací
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="card mb-4">
+                    <img src="images/relaxing-bed-and-breakfast_3.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Pokoj se snídaní</h5>
+                        <table class="table table-bordered text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-center"><i class="fas fa-male"></i>
+
+                                    </th>
+                                    <th scope="col">1 noc</th>
+                                    <th scope="col">1 týden</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>39 $</td>
+                                    <td>239 $</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>59 $</td>
+                                    <td>389 $</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <p class="card-text text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                            inventore laboriosam.
+                        </p>
+
+                        <div class="text-center">
+                            <button type="button" class="btn btn-secondary" data-toggle="tooltip"
+                                data-placement="bottom" title="Info o pokoji">Více informací
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="card mb-4">
+                    <img src="images/adina-apartment-hotel.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Apartmány</h5>
+                        <table class="table table-bordered text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-center"><i class="fas fa-male"></i>
+
+                                    </th>
+                                    <th scope="col">1 noc</th>
+                                    <th scope="col">1 týden</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>139 $</td>
+                                    <td>999 $</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-center">6</th>
+                                    <td>189 $</td>
+                                    <td>1099 $</td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <p class="card-text text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                            inventore laboriosam.
+                        </p>
+                        <a href="#cenik" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="Info o pokoji">Více informací</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="card mb-4">
+                    <img src="images/thetravelblog.at_by_ladyvenom_botswana_andbeyond-917.jpg" class="card-img-top "
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Superior</h5>
+                        <table class="table table-bordered text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-center"><i class="fas fa-male"></i>
+
+                                    </th>
+                                    <th scope="col">1 noc</th>
+                                    <th scope="col">1 týden</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>139 $</td>
+                                    <td>999 $</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-center">6</th>
+                                    <td>199 $</td>
+                                    <td>1390 $</td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <p class="card-text text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                            inventore laboriosam.
+                        </p>
+                        <a href="#cenik" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="Info o pokoji">Více informací</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section class="container-carousel pb-5  " id="karousal">
+        <h3 class="text-center font-weight-light pb-4">Galerie</h3>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade  " data-ride="carousel">
+            <ol class="carousel-indicators ">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active "></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner  ">
+                <div class="carousel-item active ">
+                    <img src="images/Bazen_m.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 text-muted">Bazén </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/plaz2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 text-muted">Pláž </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Resort_2_m.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 text-muted">Resort</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Zahrada_m.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 text-muted">Zahrada</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Sunrise_m.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 text-muted">Sunrise</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Předchozí</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Další</span>
+            </a>
+        </div>
+    </section>
+
+
+    <section id="kontakt" class="pt-3">
+        <div class="container-kontakt">
+            <h3 class="text-center font-weight-light pb-4">Kontakty</h3>
+            <div class="row pb-5 text-center ">
+                <div class="col-12 col-lg-4"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1598.3225162859337!2d31.43728946937382!3d36.755090553289776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c35a024ec510e7%3A0x882baa8de1a9ee24!2sPegasos%20World%20Hotel!5e0!3m2!1scs!2scz!4v1636539274872!5m2!1scs!2scz"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                <div class="col-12 col-lg-4  d-flex flex-column justify-content-center">
+                    <h5 class="">Sociální média:</h5>
+                    <div class="mb-2"><a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="#"><i class="fab fa-instagram"></i>
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="#"><i class="fab fa-twitter-square"></i>
+                            Twitter
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+                    <h5 class="">Adresa:</h5>
+                    <div class="mb-2">Sorgun, Titreyengöl Mevkii, 07601</a>
+                    </div>
+                    <div class="mb-2">Telephone: +389 2369 5897 477</div>
+                    <div class="mb-2">Email: <a href=""> PegasosWorldHotel@Pegasos.com</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover($(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            }))
+        })
+    </script>
+
+    <script>
+        $('.modal').on('hide.bs.modal', function () {
+            var memory = $(this).html();
+            $(this).html(memory);
+        }); //tohle vypne video po zavreni modalu
+    </script>
+</body>
+
+</html>
